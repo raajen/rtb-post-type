@@ -1,4 +1,7 @@
 <?php
+/**
+ * Raw Tool Box Post type generator class
+ */
 class RawToolBox_PostType{
 	private $_singular, $_post_type, $_plural, $_custom_query_var, $_in_menu;
 

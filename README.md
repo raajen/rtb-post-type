@@ -73,5 +73,7 @@ Post Type Generator Class for developers
 ````
 
 ## Many More if you dig into the class
+[Rajendra Wagle](http://rajendrawagle.com.np)
+[raajen](https://github.com/raajen)
 
 
