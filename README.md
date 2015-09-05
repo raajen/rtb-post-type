@@ -5,11 +5,13 @@ Post Type Generator Class for developers
 
 ## Usage:
 1. require it inside your theme or plugin
-````require( get_template_directory() . '/rtb-post-type/rtb-post-type.class.php' );
+````
+	require( get_template_directory() . '/rtb-post-type/rtb-post-type.class.php' );
+````
 
 2. We're going to create a portfolio post type
 ````
-	$portfolio = new RawToolBox_PostType( $singular_name, $menu_name, $plural_name, $post_type_slug );
+	$portfolio = new RawToolBox_PostType( $singular_name, $menu_name = '', $plural_name, $post_type_slug );
 	$portfolio->set_menu_icon( 'dashicons-portfolio' );
 	$portfolio->set_menu_position( 5 );
 	$portfolio->set_parent_menu( true );	'true|edit.php?post_type=post|page|'
