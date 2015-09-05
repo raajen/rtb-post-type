@@ -4,12 +4,12 @@ Post Type Generator Class for developers
 
 
 ## Usage:
-1. Include it inside your theme or plugin. Usage for theme is shown here
+Include it inside your theme or plugin. Usage for theme is shown here
 ````
 	require( get_template_directory() . '/rtb-post-type/rtb-post-type.class.php' );
 ````
 
-2. We're going to create a portfolio post type
+We're going to create a portfolio post type
 ````
 	$singular_name = 'Portfolio';
 	$menu_name = 'Portfolios';	// can be empty, if it is not set, plural name is used
