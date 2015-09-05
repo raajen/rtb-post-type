@@ -71,7 +71,7 @@ We're going to create a portfolio post type
 	);
 	$portfolio->set_admin_columns( $columns );
 ````
-
+Custom Taxonomy Generator Coming Soon !!!!!!!!!!!!!!!!!!!
 ## Many More if you dig into the class
 [Rajendra Wagle](http://rajendrawagle.com.np)
 [raajen](https://github.com/raajen)
