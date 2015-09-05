@@ -15,6 +15,7 @@ Post Type Generator Class for developers
 	$portfolio->set_menu_icon( 'dashicons-portfolio' );
 	$portfolio->set_menu_position( 5 );
 	$portfolio->set_parent_menu( true );	'true|edit.php?post_type=post|page|'
+````
 
 
 #### Even you can create columns created with this generator
