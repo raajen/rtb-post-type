@@ -4,7 +4,7 @@ Post Type Generator Class for developers
 
 
 ## Usage:
-1. require it inside your theme or plugin
+1. Include it inside your theme or plugin. Usage for theme is shown here
 ````
 	require( get_template_directory() . '/rtb-post-type/rtb-post-type.class.php' );
 ````
@@ -19,7 +19,8 @@ Post Type Generator Class for developers
 
 
 #### Even you can create columns created with this generator
-```` $columns = array(
+```` 
+	$columns = array(
 		'admin_column'		=>	true,
 		'columns'			=> array(
 			array(
@@ -44,6 +45,7 @@ Post Type Generator Class for developers
 		)
 	);
 	$portfolio->set_admin_columns( $columns );
+````
 
 
 
