@@ -1,6 +1,10 @@
 <?php
 /**
  * Raw Tool Box Post type generator class
+ * @subpackage RawToolBox
+ * @package  WordPress
+ * @author Rajendra Wagle <[raajen73@gmail.com]>
+ * @version 1.0
  */
 class RawToolBox_PostType{
 	private $_singular, $_post_type, $_plural, $_custom_query_var, $_in_menu;
