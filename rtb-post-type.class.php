@@ -71,8 +71,8 @@ class RawToolBox_PostType{
 			$this->_post_type = strtolower( str_replace( ' ', '_', $post_type ) );
 		}
 
-		//check if theme supports post-thumbnails or not.
-		// if doesn't support add
+		//check if theme supports post-thumbnails.
+		// if doesn't support, add support for post thumbnails
 		if( false === current_theme_supports( 'post-thumbnails' ) ){
 			add_action( 'after_setup_theme', 'add_feature', 999 );
 		}
