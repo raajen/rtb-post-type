@@ -43,8 +43,8 @@ We're going to create a portfolio post type
 	$portfolio->set_hierarchical( true );
 ````
 
-#### Even you can create columns created with this generator
-```` 
+#### Even you can create columns for post types created with this generator
+````
 	$columns = array(
 		'admin_column'		=>	true,
 		'columns'			=> array(
